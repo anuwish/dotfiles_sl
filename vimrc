@@ -60,7 +60,7 @@ set smartcase
 " Colours
 syntax enable
 "colorscheme tomorrow-night
-colorscheme tomorrow
+colorscheme Tomorrow
 
 
 " Options for {G,M}VIM
