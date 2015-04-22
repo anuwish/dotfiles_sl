@@ -1,0 +1,23 @@
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.tmux.conf: tmux.conf
+    ~/.vim: vim/
+    ~/.vimrc: vimrc
+    ~/.pythonrc.py: pythonrc
+    ~/.gitignore_global: git/gitignore_global
+    ~/.gitconfig: git/gitconfig
+    ~/.git-completion.sh: git/git-completion.sh
+    ~/.bashrc:       bash/bashrc
+    ~/.bash_profile: bash/bash_profile
+    ~/.bash_aliases: bash/bash_aliases
+    ~/.bash_exports: bash/bash_exports
+    ~/.bash_options: bash/bash_options
+    ~/.bash_paths:   bash/bash_paths
+    ~/.bash_prompt:  bash/bash_prompt
+    ~/.inputrc:      bash/inputrc
+    ~/.fonts:        fonts
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+    - [~/.fonts/install.sh, Installing powerline fonts]
