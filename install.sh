@@ -12,6 +12,7 @@ ln -s ${BASEDIR}/vim ~/.vim
 # git
 ln -s ${BASEDIR}/git/gitconfig ~/.gitconfig
 cp ${BASEDIR}/git/gitignore_global ~/.gitignore_global
+ln -s ${BASEDIR}/git/git-completion.sh ~/.git-completion.sh
 
 # bash
 ln -s ${BASEDIR}/bash/bashrc         ~/.bashrc   
